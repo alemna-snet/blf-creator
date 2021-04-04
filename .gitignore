@@ -1,0 +1,22 @@
+## FILES LIKELY CONTAINING USER DATA ##
+*.csv
+*.txt
+*.xls
+*.xlsx
+# but keep
+!helpers/BLANK Expansion Module Template.csv
+
+## PYTHON ##
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
